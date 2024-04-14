@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Cruzeiro Travel</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/favicon2.png" type="image/x-icon">
+</head>
+
+<body>
+    <table>
+        <!-- Header -->
+        <tr>
+            <td id="header_box" colspan="2">
+                <img src="img/logo1.png">
+
+            </td>
+
+        </tr>
+
+        <!-- Nav -->
+        <tr>
+            <td id="nav_box" colspan="2">
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="quem_somos.html">QUEM SOMOS</a> </li>
+                    <li> <a href="" class="ativo">CONTATO</a> </li>
+
+                </ul>
+            </td>
+        </tr>
+
+        <!-- Imagem 01 -->
+        <tr>
+            <td colspan="2">
+                <img src="img/contato.png">
+            </td>
+        </tr>
+
+
+        <!-- Enviar pergunta-->
+        <tr>
+            <td class="article_box">
+                <form action="enviar_contato.php" method="post">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </td>
+            
+        <!-- Contatos-->
+
+            <td class="article_box">
+                <h2>Nossos Contatos</h2>
+                <p>Telefone: (11) 2796-3059</p>
+                <p>Email: cruzeirotravel@viagens.com.br</p>
+                <p>Endereço: Rua das nações, 123 - São Paulo - SP</p>
+            </td>
+        </tr>
+
+
+        <!-- Footer -->
+        <tr>
+            <td id="footer_box" colspan="2">
+                Desenvolvido por Maryanne L. Carvalho - 2024
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
